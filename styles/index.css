@@ -1,51 +1,10 @@
-body {
-  background-color: #ffd166;
+body{
   width: 100vw;
   height: 100vh;
+  background-color: yellow;
   display: flex;
   justify-content: center;
+
   align-items: center;
 }
 
-.myRadius {
-  border-radius: 0px 5px 5px 0px;
-}
-
-li {
-  border-bottom: 1px solid gainsboro;
-  padding-bottom: 1rem;
-  margin-bottom: 1rem;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 10px;
-  height: 50vh;
-}
-
-.myScroll {
-  overflow: auto;
-  /* overflow-x: hidden; */
-  scroll-behavior: smooth;
-}
-
-.myScroll::-webkit-scrollbar {
-  width: 6px; /* width of the entire scrollbar */
-}
-
-.myScroll::-webkit-scrollbar-track {
-  background: gainsboro; /* color of the tracking area */
-}
-
-.myScroll::-webkit-scrollbar-thumb {
-  background-color: rgb(114, 114, 114); /* color of the scroll thumb */
-  border-radius: 10px; /* roundness of the scroll thumb */
-  
-}
-
-@media only screen and (max-width: 800px) {
-  #colButton {
-    margin-top: 1rem;
-  }
-}
